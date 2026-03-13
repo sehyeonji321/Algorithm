@@ -1,6 +1,6 @@
 N = int(input())
 
-peoples = [list(input().split()) for _ in range(N)]
+peoples = [input().split() for _ in range(N)] # input().split()이 이미 list
 
 for age in range(1, 201):
     for a, n in peoples:
